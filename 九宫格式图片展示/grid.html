@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>九宫格图片显示网页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="daohanglan">
+        <nav>
+            <ul>
+                <li><a href="../clock.html">卡片翻转时钟</a></li>
+                <li><a href="../卡片式图片展示/gallery.html">卡片式图片展示</a></li>
+                <li><a href="grid.html">九宫格图片展示</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header>
+        <input type="text" id="search" placeholder="输入关键词">
+        <button onclick="searchImages()">搜索</button>
+    </header>
+    <div id="message-container"></div>
+    <div class="grid-container" id="imageGrid">
+        <!-- 图片容器 -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
